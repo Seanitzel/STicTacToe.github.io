@@ -25,7 +25,7 @@ function seq(){
 //main function
 function main(){
 	while (isNaN(N) || N < 3) {
-		N = prompt("Enter A Number Greater Than 2!");
+		N = prompt("Choose Game Dimensions Please! \nEnter A Number Greater Than 2!");
 	}
 
 	for (var i = 0; i < N; i++) {
